@@ -4,6 +4,10 @@
 
 def main():
     user_input = input().split(" ")
-
+    for i in range(int(user_input[0]+1)):
+        for x in range(int(user_input[1]+1)):
+            print (x)
+        
+        
 if __name__ == "__main__":
     main()
